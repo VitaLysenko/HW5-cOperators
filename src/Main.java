@@ -61,31 +61,27 @@ public class Main {
         switch (monthNumber) {
             case 1:
             case 2:
-            case 12: {
+            case 12:
                 System.out.println("Месяц " + monthNumber + " зимний");
-            }
             break;
             case 3:
             case 4:
-            case 5: {
+            case 5:
                 System.out.println("Месяц " + monthNumber + " весенний");
-            }
             break;
             case 6:
             case 7:
-            case 8: {
+            case 8:
                 System.out.println("Месяц " + monthNumber + " летний");
+            break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Месяц " + monthNumber + " осенний");
+            break;
+            default:
+                System.out.println("Дорогулис, ты не тот месяц выбрал");
         }
-        break;
-        case 9:
-        case 10:
-        case 11: {
-        System.out.println("Месяц " + monthNumber + " осенний");
-    }
-                break;
-    default:
-            System.out.println("Дорогулис, ты не тот месяц выбрал");
-}
 
-        }
     }
+}
